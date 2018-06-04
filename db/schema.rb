@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180603233546) do
+ActiveRecord::Schema.define(version: 20180604021106) do
 
   create_table "chemical_compositions", force: :cascade do |t|
     t.integer "planet_id"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20180603233546) do
     t.string "rotation_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "encrypted_name"
   end
 
 end
