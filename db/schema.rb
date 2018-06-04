@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180604021106) do
+ActiveRecord::Schema.define(version: 20180604023551) do
 
   create_table "chemical_compositions", force: :cascade do |t|
     t.integer "planet_id"
